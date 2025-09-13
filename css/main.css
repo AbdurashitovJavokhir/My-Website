@@ -1,0 +1,100 @@
+/* Main Section Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+code, pre, .mono-text {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.main-section {
+    padding: 20px;
+    background-color: #292F36;
+}
+
+.highlight {
+    color: #12F7D6;
+}
+
+.highlight-2 {
+    color: #98FAEC;
+}
+
+.fs-32 {
+    font-size: 2rem;
+}
+
+.fs-14 {
+    font-size: 0.875rem;
+}
+
+.fs-64 {
+    font-size: 4rem;
+}
+
+.nav-links a:hover,
+.nav-icons a:hover {
+  color: #12F7D6 !important;
+  transition: color 0.5s ease;
+}
+
+.main-title {
+    font-size: 7.3125rem;
+    margin-bottom: 1.25rem;
+}
+
+.first-content {
+  width: 320px;
+  height: 520px;
+  border: 4px solid #ffffff;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  box-shadow: -3px -3px 3px 2px rgba(18,247,214,0.77);
+  -webkit-box-shadow: -3px -3px 3px 2px rgba(18,247,214,0.77);
+  -moz-box-shadow: -3px -3px 3px 2px rgba(18,247,214,0.77);
+}
+
+.my-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: #12F7D6 4px solid;
+}
+
+.skill-list li {
+  background-color: #12F7D6;
+  color: #000000;
+  padding: 1px 8px;
+  border-radius: 12px;
+}
+
+.donwloand-btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 8px 32px;
+  border-radius: 2rem;
+  border-style: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.second-content {
+  padding-left: 5rem !important;
+}
+
+.email-button {
+  background-color: #43454D;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.third-content {
+  background-color: #1A1E23;
+  border-radius: 5rem;
+  padding: 20px;
+}
