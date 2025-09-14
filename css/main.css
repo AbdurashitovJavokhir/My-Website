@@ -97,4 +97,28 @@ code, pre, .mono-text {
   background-color: #1A1E23;
   border-radius: 5rem;
   padding: 20px;
+  
+}
+
+/* About me  */
+.about-me {
+  background-color: #1A1E23; 
+  position: relative;
+  min-height: 100vh; 
+  margin: 0;
+  z-index: -2;
+}
+
+.about-me::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../image/about-me-bg.png") no-repeat center/cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.about-me-text {
+  background-color: #292F36;
+  border-radius: 2.5rem;
 }
