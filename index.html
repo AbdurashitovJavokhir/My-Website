@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Main Section -->
-        <section class="main-section">
+        <section class="main-section vh-100">
             <nav class="navigation-bar container">
                 <div class="row align-items-center pb-3">
                     <div class="col-3">
@@ -104,16 +104,20 @@
         </section>
     <!-- Main Section -->
 
-    <!-- About me -->
+    <!-- About me Section -->
         <section class="about-me">
             <div class="container">
-                <div class="row">
+                <div class="row vh-100 align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="highlight fs-64 fw-light">About Me</h1>
+                        <p class="mono-text m-0">I had the pleasure of working with these awesome Projects</p>
+                    </div>
                     <div class="col-9">
-                        <h1 class="py-3 px-5">About me</h1>
+                        <h1 class="py-3 px-5 d-inline-block about-me-title fs-64 fw-light">About Me</h1>
                         <div class="py-4 px-5 about-me-text">
                             <span class="code-tag fs-14 highlight-2 mono-text">&lt;p&gt;</span>
                                 <p class="fs-6 mono-text">
-                                    <span class="highlight fs-32"> Hello!</span><br>
+                                    <span class="highlight fs-32 mono-text"> Hello!</span><br>
                                     My name is Javokhir and I specialize in web developement that utilizes <span class="highlight">HTML, CSS, JS,</span> and <span class="highlight">Bootstrap</span> etc.
                                     I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving.
                                     When I'm not coding, I <span class="highlight">write blogs</span>, reading, or picking up some new hands-on art project like <span class="highlight">photography</span>.
@@ -128,7 +132,69 @@
                 </div>
             </div>
         </section>
-    <!-- About me -->
+    <!-- About me Section -->
+
+    <!-- Skills Section -->
+        <section class="skills-section vh-100">
+            <div class="container">
+                <div class="icon d-flex justify-content-end align-items-center pt-5 pb-3">
+                    <h1 class="highlight fs-168">&lt;/&gt;</h1>
+                </div>
+                <div class="row align-items-center">
+                     <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
+                        <h1 class="highlight fs-64 fw-light">Skills</h1>
+                        <p class="mono-text m-0">I am striving to never stop learning and improving</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center column-first" >
+                            <i class="fa-solid fa-desktop text-dark"></i>
+                            <p class="text-dark mb-2">Web Development</p>
+                            <ul class="list-unstyled d-flex gap-4 m-0">
+                                <li class="text-decoration-none text-secondary mono-text">HTML</li>
+                                <li class="text-decoration-none text-secondary mono-text">CSS</li>
+                                <li class="text-decoration-none text-secondary mono-text">JS</li>
+                                <li class="text-decoration-none text-secondary mono-text">Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="col-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center column-second" >
+                            <i class="fa-solid fa-desktop text-dark"></i>
+                            <p class="text-dark mb-2">App Development</p>
+                            <ul class="list-unstyled d-flex gap-4 m-0">
+                                <li class="text-decoration-none text-secondary mono-text">iOS</li>
+                                <li class="text-decoration-none text-secondary mono-text">Android</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center" style="margin-top: 6.25rem;">
+                        <div class="col-2 d-flex justify-content-center align-items-center flex-column column-first">
+                            <div class="skill-bg mb-4" style="background-color: #E54F26;">
+                                <img src="./image/html-logo.png" alt="HTML-LOGO" >
+                            </div>
+                            <p class="fs-32 m-0 mono-text" style="color: #E54F26;">HTML</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center flex-column column-first column-second">
+                            <div class="skill-bg mb-4" style="background-color: #0C73B8;">
+                                <img src="./image/css-logo.png" alt="CSS-LOGO" >
+                            </div>
+                            <p class="fs-32 m-0 mono-text" style="color: #0C73B8;">CSS</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center flex-column column-first column-second">
+                            <div class="skill-bg mb-4" style="background-color: #E7A020;">
+                                <img src="./image/js-logo.png" alt="JS-LOGO" >
+                            </div>
+                            <p class="fs-32 m-0 mono-text" style="color: #E7A020;">JS</p>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center flex-column column-second">
+                            <div class="skill-bg mb-4" style="background-color: #28A9E0;">
+                                <img src="./image/html-logo.png" alt="REACT-LOGO" >
+                            </div>
+                            <p class="fs-32 m-0 mono-text" style="color: #28A9E0;">REACT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Skills Section -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
