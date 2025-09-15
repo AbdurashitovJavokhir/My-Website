@@ -162,3 +162,35 @@ code, pre, .mono-text {
   transform: translate(-50%, -50%);
   
 }
+
+/* Works Section */
+.works-section {
+  background-color: #1A1E23;
+  background-image: url("../image/works-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+
+}
+
+.swiper-slide .position-relative {
+  position: relative;
+  display: inline-block;
+  margin: auto;              /* keeps it centered */
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
