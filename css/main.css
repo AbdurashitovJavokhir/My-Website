@@ -182,15 +182,3 @@ code, pre, .mono-text {
   align-items: center;    
 
 }
-
-.swiper-slide .position-relative {
-  position: relative;
-  display: inline-block;
-  margin: auto;              /* keeps it centered */
-}
-
-.swiper-slide img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}

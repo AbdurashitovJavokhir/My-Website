@@ -197,62 +197,44 @@
     <!-- Skills Section -->
 
     <!-- Works Section -->
-        <section class="works-section vh-100">
-            <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+        <section class="works-section vh-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
                     <h1 class="highlight fs-64 fw-light">Works</h1>
                     <p class="mono-text m-0">I had the pleasure of working with these awesome projects</p>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <!-- Indicators -->
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active"></button>
-                                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1"></button>
-                            </div>
-
-                            <!-- Slides -->
-                            <div class="carousel-inner">
-                                <!-- First Slide -->
-                                <div class="carousel-item active">
+                        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                            <swiper-slide class="d-flex justify-content-center align-items-center">
                                 <div class="position-relative">
-                                    <img src="./image/dual-screen-bg.png" class="d-block w-100  " alt="background-image">
+                                    <span class="position-absolute border-bottom border-white pb-1 fs-4" style="top: 12%; left: 58.5%;"><a href="https://github.com/AbdurashitovJavokhir/Breed-Portfolio.git" class=" text-decoration-none highlight mono-text">View Website</a></span>
+                                    <img src="./image/dual-screen-bg.png" alt="background-image">
 
-                                    <div class="position-absolute" style="top: 13%; left: -1.9%;">
-                                    <img src="./image/web-1.png" alt="Web1">
+                                    <div class="position-absolute" style="top: 13%; left: -3.7%;">
+                                        <img src="./image/web-1.png" alt="Web1">
                                     </div>
 
-                                    <div class="position-absolute" style="top: 30.7%; left: 17.3%;">
-                                    <img src="./image/web-2.png" alt="Web2">
+                                    <div class="position-absolute" style="top: 30.7%; left: 46.9%;">
+                                        <img src="./image/web-2.png" alt="Web2" style="width: 297px; height: 171px;">
                                     </div>
                                 </div>
-                                </div>
-
-                                <!-- Second Slide -->
-                                <div class="carousel-item">
+                            </swiper-slide>
+                            <swiper-slide class="d-flex justify-content-center align-items-center">
                                 <div class="position-relative">
-                                    <img src="./image/dual-screen-bg.png" class="d-block w-100" alt="background-image">
+                                    <span class="position-absolute border-bottom border-white pb-1 fs-4" style="top: 12%; left: 58.5%;"><a href="https://github.com/IDU-Auction/Auction-Front.git" class=" text-decoration-none highlight mono-text">View Website</a></span>
+                                    <img src="./image/dual-screen-bg.png" alt="background-image">
 
-                                    <div class="position-absolute" style="top: 13%; left: -1.9%;">
-                                    <img src="./image/web-1.png" alt="Web1">
+                                    <div class="position-absolute" style="top: 13%; left: -3.7%;">
+                                        <img src="./image/web-1.png" alt="Web1">
                                     </div>
 
-                                    <div class="position-absolute" style="top: 30.7%; left: 23.6%;">
-                                    <img src="./image/web-3.png" alt="Web3" style="width: 297px; height: 171px;">
+                                    <div class="position-absolute" style="top: 30.7%; left: 46.8%;">
+                                        <img src="./image/web-3.png" alt="Web3" style="width: 297px; height: 171px;">
                                     </div>
                                 </div>
-                                </div>
-                            </div>
-
-                            <!-- Controls -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
+                            </swiper-slide>
+                        </swiper-container>
                     </div>
                 </div>
             </div>
