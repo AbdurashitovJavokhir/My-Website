@@ -38,6 +38,42 @@ code, pre, .mono-text {
 .fs-168 {
     font-size: 10.5rem;
 }
+
+.fancy-heading {
+  position: relative;
+  display: inline-block;       
+  color: #12F7D6;            
+  font-size: 4rem;            
+  padding: 0 0 0.5rem 0;   
+  border-bottom: 4px solid #12F7D6; 
+  margin: 40px 0;
+  overflow: visible;         
+}
+
+
+.fancy-heading::before,
+.fancy-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;              
+  width: 14px;                 
+  height: 14px;
+  border-radius: 50%;
+  background: #12F7D6;         
+  box-shadow: 0 0 0 3px rgba(0,0,0,0); 
+}
+
+
+.fancy-heading::before {
+  left: 0;
+  transform: translateX(-50%); 
+}
+.fancy-heading::after {
+  right: 0;
+  transform: translateX(50%); 
+}
+
+
 .nav-links a:hover,
 .nav-icons a:hover {
   color: #12F7D6 !important;
