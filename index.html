@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Main Section -->
-        <section class="main-section vh-100">
+        <section class="main-section min-vh-100 d-flex flex-column justify-content-center align-items-center">
             <nav class="navigation-bar container">
                 <div class="row align-items-center pb-3">
                     <div class="col-3">
@@ -25,10 +25,10 @@
                         <div class="d-flex justify-content-end align-items-center gap-5">
                             <ul class="nav-links list-unstyled d-flex gap-5 m-0 fs-5">
                                 <li><a href="#home" class="text-decoration-none highlight mono-text">Home</a></li>
-                                <li><a href="#about" class="text-decoration-none text-white mono-text">Skills</a></li>        
-                                <li><a href="#about" class="text-decoration-none text-white mono-text">Works</a></li>  
-                                <li><a href="#about" class="text-decoration-none text-white mono-text">Blogs</a></li>    
-                                <li><a href="#about" class="text-decoration-none text-white mono-text">Contact</a></li>   
+                                <li><a href="#skills" class="text-decoration-none text-white mono-text">Skills</a></li>        
+                                <li><a href="#works" class="text-decoration-none text-white mono-text">Works</a></li>  
+                                <li><a href="#blogs" class="text-decoration-none text-white mono-text">Blogs</a></li>    
+                                <li><a href="#contact" class="text-decoration-none text-white mono-text">Contact</a></li>   
                             </ul>
                             <ul class="nav-icons list-unstyled d-flex gap-3 m-0 fs-6">
                                 <li><a href="https://www.instagram.com/javokha" target="_blank" class="text-decoration-none text-white mono-text"><i class="fa-brands fa-instagram highlight pe-2"></i>Instagram</a></li>
@@ -41,7 +41,7 @@
                 <hr>
             </nav>
        
-            <div class="main-contents container">
+            <div class="main-contents container ">
                 <h1 class="main-title text-center highlight-2 fw-light">Developer</h1>
                 <div class="row my-5">
                     <div class="first-content col-3">
@@ -105,9 +105,9 @@
     <!-- Main Section -->
 
     <!-- About me Section -->
-        <section class="about-me">
+        <section class="about-me min-vh-100 d-flex flex-column justify-content-center align-items-center" id="about">
             <div class="container">
-                <div class="row vh-100 align-items-center">
+                <div class="row align-items-center">
                     <div class="d-flex flex-column justify-content-center align-items-center">
                         <h1 class="highlight fs-64 fw-light fancy-heading">About Me</h1>
                         <p class="mono-text m-0">Ambitious student, cybersecurity learner, gym-goer, disciplined and motivated.</p>
@@ -135,7 +135,7 @@
     <!-- About me Section -->
 
     <!-- Skills Section -->
-        <section class="skills-section vh-100">
+        <section class="skills-section min-vh-100 d-flex flex-column justify-content-center align-items-center" id="skills">
             <div class="container">
                 <div class="icon d-flex justify-content-end align-items-center pt-5 pb-3">
                     <h1 class="highlight fs-168">&lt;/&gt;</h1>
@@ -165,7 +165,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row justify-content-center" style="margin-top: 6.25rem;">
+                    <div class="row justify-content-center" style="margin-top: 6.25rem; margin-bottom: 6.25rem;">
                         <div class="col-2 d-flex justify-content-center align-items-center flex-column column-first">
                             <div class="skill-bg mb-4" style="background-color: #E54F26;">
                                 <img src="./image/html-logo.png" alt="HTML-LOGO" >
@@ -197,7 +197,7 @@
     <!-- Skills Section -->
 
     <!-- Works Section -->
-        <section class="works-section vh-100 d-flex flex-column justify-content-center align-items-center">
+        <section class="works-section min-vh-100 d-flex flex-column justify-content-center align-items-center" id="works">
             <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
                     <h1 class="highlight fs-64 fw-light fancy-heading">Works</h1>
@@ -242,7 +242,8 @@
     <!-- Works Seciton -->
     
     <!-- Blogs Section -->
-        <section class="blogs-section vh-100 d-flex flex-column justify-content-center align-items-center" style="background-color: #292F36;">
+        <section class="blogs-section min-vh-100 d-flex justify-content-center align-items-center flex-column" id="blogs">
+            <div class="container">
             <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
                     <h1 class="highlight fs-64 fw-light fancy-heading">Blogs</h1>
@@ -269,13 +270,45 @@
                 <div class="row mt-5">
                     <div class="col-12 d-flex justify-content-center align-items-center">
                         <button type="button" class="blog-btn text-dark me-4" style="background-color: #12F7D6;">View More</button>
-                        <button type="button" class="blog-btn bg-dark ms-4">Subscribe</button>
+                        <button type="button" class="blog-btn bg-dark ms">Subscribe</button>
                     </div>
                 </div>
             </div>
         </section>
     <!-- Blogs Section -->
     
+    <!-- Contact Section -->
+        <section class="contact-section min-vh-100 d-flex justify-content-center align-items-center flex-column" id="contact">
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
+                    <h1 class="highlight fs-64 fw-light fancy-heading">Contact</h1>
+                    <p class="mono-text m-0">I’m currently available for freelance work</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                        <h1 class="py-3 px-5 d-inline-block about-me-title fs-32 fw-light bg-dark" style="color: #12F7D6;">Send Me A Message</h1>
+                        <div class="row w-100 mb-5">
+                            <div class="col-6 d-flex flex-column align-items-start">
+                                <label for="name" class="form-label highlight fw-light">Your name *</label>
+                                <input type="text" class="customized-input fw-light" id="name" placeholder="Enter your name">
+                            </div>
+                             <div class="col-6 d-flex flex-column align-items-start">
+                                <label for="email" class="form-label highlight fw-light">Your email *</label>
+                                <input type="email" class="customized-input fw-light" id="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row w-100 mt-4">
+                            <div class="col-12 d-flex flex-column align-items-start">
+                                <label for="message" class="form-label highlight fw-light">Your message *</label>
+                                <textarea class="customized-input fw-light" id="message" placeholder="Enter your needs" rows="1" style="width: 93%;"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="blog-btn text-dark" style="background-color: #12F7D6; margin-top: 4rem;">Send Message <i class="fa-solid fa-paper-plane text-dark ps-2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Contact Section -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

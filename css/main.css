@@ -1,15 +1,23 @@
 /* Main Section Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #292F36;
+  scroll-behavior: smooth; /* smooth scroll uchun */
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
 }
 
 code, pre, .mono-text {
   font-family: 'IBM Plex Mono', monospace;
 }
+
 
 .main-section {
     padding: 20px;
@@ -205,6 +213,10 @@ code, pre, .mono-text {
   background-image: url("../image/works-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .swiper-container {
@@ -220,10 +232,37 @@ code, pre, .mono-text {
 }
 
 /* Blogs section */
-
+.blogs-section {
+  background-color: #292F36;
+}
 .blog-btn {
   padding: 1rem 2rem;
   border-radius: 2rem;
   font-size: 1.25rem;
   border: 1px solid #12F7D6;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #1A1E23;
+}
+
+.customized-input {
+  border: none;                       
+  border-bottom: 2px solid #98FAEC;   
+  border-radius: 0;                   
+  background-color: transparent;     
+  color:#fff;   
+  width: 85%;                    
+}
+
+.customized-input:focus {
+  box-shadow: none;                   
+  outline: none;
+  border-bottom: 2px solid #98FAEC;   
+}
+
+.customized-input::placeholder {
+  color: white;                        
+  opacity: 1;                         
 }
