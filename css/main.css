@@ -218,3 +218,12 @@ code, pre, .mono-text {
   align-items: center;    
 
 }
+
+/* Blogs section */
+
+.blog-btn {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.25rem;
+  border: 1px solid #12F7D6;
+}
