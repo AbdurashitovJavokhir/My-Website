@@ -267,11 +267,16 @@ code, pre, .mono-text {
   opacity: 1;                         
 }
 
+.footer {
+  background-color: #1A1E23;
+  padding: 0 1rem;
+}
+
 .icon i {
   background-color: #98FAEC;
-  color: #292F36;
+  color: #1A1E23;
   padding: 0.5rem;
   border-radius: 50%;
   font-size: 1.5rem;
-  
 }
+
