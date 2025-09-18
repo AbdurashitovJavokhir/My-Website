@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   background: #292F36;
   scroll-behavior: smooth; /* smooth scroll uchun */
+  position: relative;
 }
 
 * {
@@ -81,6 +82,40 @@ code, pre, .mono-text {
   transform: translateX(50%); 
 }
 
+.navigation-icons {
+  position: fixed;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background-color: #1A1E23;
+  padding: 8px 12px;
+  border-radius: 40px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 24px 0;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.navigation-icons i {
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+/* Active (clicked) state */
+.navigation-icons a.active i {
+  background-color: #fff;
+  color: #1A1E23; /* opposite color for contrast */
+}
 
 .nav-links a:hover,
 .nav-icons a:hover {
