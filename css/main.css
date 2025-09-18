@@ -266,3 +266,12 @@ code, pre, .mono-text {
   color: white;                        
   opacity: 1;                         
 }
+
+.icon i {
+  background-color: #98FAEC;
+  color: #292F36;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  
+}
