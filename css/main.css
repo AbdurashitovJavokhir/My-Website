@@ -21,31 +21,30 @@ code, pre, .mono-text {
 
 
 .main-section {
-    padding: 20px;
-    background-color: #292F36;
+  background-color: #292F36;
 }
 
 .highlight {
-    color: #12F7D6;
+  color: #12F7D6;
 }
 
 .highlight-2 {
-    color: #98FAEC;
+  color: #98FAEC;
 }
 
 .fs-32 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .fs-14 {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .fs-64 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 .fs-168 {
-    font-size: 10.5rem;
+  font-size: 10.5rem;
 }
 
 .fancy-heading {
@@ -129,8 +128,8 @@ code, pre, .mono-text {
 }
 
 .first-content {
-  width: 320px;
-  height: 520px;
+  width: 200px;
+  height: auto;
   border: 4px solid #ffffff;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
@@ -163,10 +162,6 @@ code, pre, .mono-text {
   text-align: center;
 }
 
-.second-content {
-  padding-left: 5rem !important;
-}
-
 .email-button {
   background-color: #43454D;
   border: none;
@@ -176,9 +171,7 @@ code, pre, .mono-text {
 
 .third-content {
   background-color: #1A1E23;
-  border-radius: 5rem;
-  padding: 20px;
-  
+  border-radius: 5rem; 
 }
 
 /* About me  */
@@ -188,6 +181,7 @@ code, pre, .mono-text {
   background-image: url("../image/about-me-bg.png"); 
   background-repeat: no-repeat; 
   background-size: cover;
+  
 }
 
 .about-me-title {
@@ -219,13 +213,6 @@ code, pre, .mono-text {
   border-left: 0.5rem solid #0C73B8;
   color: #292F36; 
 }
-.column-first {
-  margin-right: 64px;
-}
-.column-second {
-  margin-left: 64px;
-}
-
 .skill-bg {
   position: relative;
   height: 144px;
@@ -315,3 +302,76 @@ code, pre, .mono-text {
   font-size: 1.5rem;
 }
 
+/* Media Query */
+
+/* Phone uchun */
+@media (max-width: 576px) { 
+  .logo span {
+    font-size: 1rem;
+  }
+
+  .nav-links li{
+    font-size: 1rem;
+  }
+
+  .second-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-me-title {
+    font-size: 2rem;
+  }
+
+  .skills-header {
+    text-align: center;
+  }
+  .work-section-description {
+    text-align: center;
+  }
+}
+
+
+/* Tablet uchun */
+@media (min-width: 577px) and (max-width: 767px) {
+  .logo span {
+    font-size: 1.25rem;
+  }
+
+  .nav-links li{
+    font-size: 1rem;
+  }
+
+  .second-content h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Laptop uchun */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo span {
+    font-size: 2rem;
+  }
+
+  .nav-links li{
+    font-size: 1.5rem;
+  }
+
+  .second-content h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Desktop uchun */
+@media (min-width: 992px) {
+  .logo span {
+    font-size: 2rem;
+  }
+
+  .nav-links li{
+    font-size: 1.5rem;
+  }
+
+  .second-content h1 {
+    font-size: 4rem;
+  }
+}
