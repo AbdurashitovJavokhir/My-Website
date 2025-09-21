@@ -447,6 +447,7 @@ code, pre, .mono-text {
   align-items: center;
   justify-content: center;
   }
+
   .logo span {
     font-size: 2rem;
   }
@@ -458,4 +459,21 @@ code, pre, .mono-text {
   .second-content h1 {
     font-size: 4rem;
   }
+  
+}
+
+/* Katta ekranlar uchun */
+@media (min-width: 1200px) {
+  .logo span {
+    font-size: 2rem;
+  }
+
+  .nav-links li{
+    font-size: 1.5rem;
+  }
+
+  .second-content h1 {
+    font-size: 4rem;
+  }
+
 }
