@@ -430,20 +430,22 @@ code, pre, .mono-text {
 
 
 /* Desktop uchun */
-@media (min-width: 992px) {
-  .navigation-bar {
-    position: fixed;
-    width: 100%;
-    background-color: #292F36;
-    z-index: 1000;
-    top: 0;
-    border-bottom: 1px solid #53575C;
-  }
+@media (min-width: 992px) and (max-width: 1199px) {
 
-  .navigation-bar.container {
-    max-width: 100% !important;
-    padding-left: 15px;
-    padding-right: 15px;
+  .navigation-icons {
+  position: fixed;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-30%);
+  z-index: 500;
+  background-color: #1A1E23;
+  padding: 8px 12px;
+  border-radius: 40px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   }
   .logo span {
     font-size: 2rem;
