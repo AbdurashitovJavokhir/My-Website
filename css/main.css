@@ -110,10 +110,9 @@ code, pre, .mono-text {
   border-radius: 50%;
 }
 
-/* Active (clicked) state */
 .navigation-icons a.active i {
   background-color: #fff;
-  color: #1A1E23; /* opposite color for contrast */
+  color: #1A1E23; 
 }
 
 .nav-links a:hover,
@@ -122,14 +121,19 @@ code, pre, .mono-text {
   transition: color 0.5s ease;
 }
 
+.nav-link.active {
+  color: #12f7d6;
+}
+
+
 .main-title {
     font-size: 7.3125rem;
     margin-bottom: 1.25rem;
 }
 
 .first-content {
-  width: 200px;
-  height: auto;
+  width: 320px !important;
+  height: 520px !important;
   border: 4px solid #ffffff;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
@@ -361,6 +365,21 @@ code, pre, .mono-text {
 
 /* Tablet uchun */
 @media (min-width: 577px) and (max-width: 767px) {
+  .navigation-bar {
+    position: fixed;
+    width: 100%;
+    background-color: #292F36;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 1px solid #53575C;
+  }
+
+  .navigation-bar.container {
+    max-width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .logo span {
     font-size: 1.25rem;
   }
@@ -371,6 +390,11 @@ code, pre, .mono-text {
 
   .second-content h1 {
     font-size: 4rem;
+  }
+
+  .blog-img {
+    width: 120px;
+    height: 120px;
   }
 }
 

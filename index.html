@@ -10,7 +10,7 @@
     <title>myWebsite</title>
    
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".nav-links" data-bs-offset="70" tabindex="0">
     <!-- Main Section -->
     <div class="navigation-icons d-flex flex-column justify-content-center align-items-center text-white d-none d-xl-flex">
         <a href="#home"><i class="fa-solid fa-house"></i></a>
@@ -23,20 +23,20 @@
         <section class="main-section min-vh-100 d-flex flex-column justify-content-center align-items-center" id="home">
             <nav class="navigation-bar container">
                 <div class="row align-items-center py-3">
-                    <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3">
                         <div class="logo">
                         <span class="highlight mono-text">&lt;C/&gt;</span>
                         <span>Javokhir</span>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-7 col-md-8 col-lg-9">
-                        <div class="d-flex justify-content-center align-items-center gap-5">
-                            <ul class="nav-links list-unstyled d-flex gap-5 m-0">
-                                <li><a href="#home" class="text-decoration-none highlight mono-text">Home</a></li>
-                                <li><a href="#skills" class="text-decoration-none text-white mono-text">Skills</a></li>        
-                                <li class="d-none d-sm-inline-block"><a href="#works" class="text-decoration-none text-white mono-text">Works</a></li>  
-                                <li class="d-none d-md-inline-block"><a href="#blogs" class="text-decoration-none text-white mono-text">Blogs</a></li>    
-                                <li class="d-none d-lg-inline-block"><a href="#contact" class="text-decoration-none text-white mono-text">Contact</a></li>   
+                    <div class="col-6 col-sm-8 col-md-8 col-lg-9">
+                        <div class="d-flex justify-content-center align-items-center gap-5 gap-sm-3">
+                            <ul class="nav-links list-unstyled d-flex gap-4 gap-sm-3 gap-lg-5 m-0">
+                                <li><a href="#home" class="nav-link text-decoration-none highlight mono-text">Home</a></li>
+                                <li><a href="#skills" class="nav-link text-decoration-none text-white mono-text">Skills</a></li>        
+                                <li class="d-none d-sm-inline-block"><a href="#works" class="nav-link text-decoration-none text-white mono-text">Works</a></li>  
+                                <li class="d-none d-sm-inline-block"><a href="#blogs" class="nav-link text-decoration-none text-white mono-text">Blogs</a></li>    
+                                <li class="d-none d-lg-inline-block"><a href="#contact" class="nav-link text-decoration-none text-white mono-text">Contact</a></li>   
                             </ul>
                             <ul class="nav-icons list-unstyled d-flex gap-3 m-0 fs-6">
                                 <li class="d-none d-sm-inline-block">
@@ -66,7 +66,7 @@
             <div class="main-contents container ">
                 <h1 class="d-none d-md-block text-center highlight-2 fw-light main-title">Developer</h1>
                 <div class="row my-5">
-                    <div class="first-content col-10 col-lg-3 mx-auto">
+                    <div class="first-content col-10 col-sm-12 col-lg-3 mx-auto mt-5 mt-md-0">
                             <div class="d-flex justify-content-center align-items-center pt-4 pb-3 my-photo">
                                 <img src="image/my-photo.JPG" alt="MyPersonalPhoto">
                             </div>
@@ -134,7 +134,7 @@
                         <h1 class="highlight fs-64 fw-light fancy-heading">About Me</h1>
                         <p class="mono-text m-0">Ambitious student, cybersecurity learner, gym-goer, disciplined and motivated.</p>
                     </div>
-                    <div class="col-lg-9 my-5 d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-lg-9 my-5 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
                         <h1 class="py-3 px-5 d-inline-block about-me-title fs-64 fw-light">About Me</h1>
                         <div class="py-4 px-5 about-me-text">
                             <span class="code-tag fs-14 highlight-2 mono-text">&lt;p&gt;</span>
@@ -168,45 +168,45 @@
                         <p class="mono-text m-0">I am striving to never stop learning and improving</p>
                     </div>
                     <div class="row justify-content-center align-items-center flex-column gap-5 flex-sm-row" >
-                        <div class="col-9 col-lg-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center me-sm-3 me-md-5" >
+                        <div class="col-9 col-sm-5 col-lg-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center me-sm-3 me-md-5" >
                             <i class="fa-solid fa-desktop text-dark"></i>
                             <p class="text-dark mb-2">Web Development</p>
-                            <ul class="list-unstyled d-flex gap-4 m-0">
+                            <ul class="list-unstyled d-flex gap-4 gap-sm-2 m-0">
                                 <li class="text-decoration-none text-secondary mono-text">HTML</li>
                                 <li class="text-decoration-none text-secondary mono-text">CSS</li>
                                 <li class="text-decoration-none text-secondary mono-text">JS</li>
                                 <li class="text-decoration-none text-secondary mono-text">Bootstrap</li>
                             </ul>
                         </div>
-                        <div class="col-9 col-lg-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center ms-sm-3 ms-md-5" >
+                        <div class="col-9 col-sm-5 col-lg-3 py-3 px-4 skill-box d-flex flex-column justify-content-center align-items-center ms-sm-3 ms-md-5" >
                             <i class="fa-solid fa-desktop text-dark"></i>
                             <p class="text-dark mb-2">App Development</p>
-                            <ul class="list-unstyled d-flex gap-4 m-0">
+                            <ul class="list-unstyled d-flex gap-4 gap-sm-2 m-0">
                                 <li class="text-decoration-none text-secondary mono-text">iOS</li>
                                 <li class="text-decoration-none text-secondary mono-text">Android</li>
                             </ul>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="margin-top: 6.25rem; margin-bottom: 6.25rem;">
-                        <div class="col-6 col-lg-2 d-flex justify-content-center align-items-center flex-column me-sm-3 me-md-5 mb-3 mb-md-0">
+                        <div class="col-6 col-sm-5 col-lg-2 d-flex justify-content-center align-items-center flex-column mb-5">
                             <div class="skill-bg mb-4" style="background-color: #E54F26;">
                                 <img src="./image/html-logo.png" alt="HTML-LOGO" >
                             </div>
                             <p class="fs-32 m-0 mono-text" style="color: #E54F26;">HTML</p>
                         </div>
-                        <div class="col-6 col-lg-2 d-flex justify-content-center align-items-center flex-column me-sm-3 me-md-5 ms-sm-3 ms-md-5 mb-3 mb-md-0">
+                        <div class="col-6 col-sm-5 col-lg-2 d-flex justify-content-center align-items-center flex-column mb-5">
                             <div class="skill-bg mb-4" style="background-color: #0C73B8;">
                                 <img src="./image/css-logo.png" alt="CSS-LOGO" >
                             </div>
                             <p class="fs-32 m-0 mono-text" style="color: #0C73B8;">CSS</p>
                         </div>
-                        <div class="col-6 col-lg-2 d-flex justify-content-center align-items-center flex-column me-sm-3 me-md-5 ms-sm-3 ms-md-5 mt-3 mt-md-0">
+                        <div class="col-6 col-sm-5 col-lg-2 d-flex justify-content-center align-items-center flex-column">
                             <div class="skill-bg mb-4" style="background-color: #E7A020;">
                                 <img src="./image/js-logo.png" alt="JS-LOGO" >
                             </div>
                             <p class="fs-32 m-0 mono-text" style="color: #E7A020;">JS</p>
                         </div>
-                        <div class="col-6 col-lg-2 d-flex justify-content-center align-items-center flex-column ms-sm-3 ms-md-5 mt-3 mt-md-0">
+                        <div class="col-6 col-sm-5 col-lg-2 d-flex justify-content-center align-items-center flex-column">
                             <div class="skill-bg mb-4" style="background-color: #28A9E0;">
                                 <img src="./image/react-logo.png" alt="REACT-LOGO" >
                             </div>
@@ -221,7 +221,7 @@
     <!-- Works Section -->
         <section class="works-section min-vh-100 d-flex flex-column justify-content-center align-items-center" id="works">
             <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center work-section-description" style="margin-bottom: 4rem;">
+                <div class="d-flex flex-column justify-content-center align-items-center work-section-description text-center" style="margin-bottom: 4rem;">
                     <h1 class="highlight fs-64 fw-light fancy-heading">Works</h1>
                     <p class="mono-text m-0">I had the pleasure of working with these awesome projects</p>
                 </div>
@@ -266,16 +266,16 @@
     <!-- Blogs Section -->
         <section class="blogs-section min-vh-100 d-flex justify-content-center align-items-center flex-column py-5 mx-auto" id="blogs">
             <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center" style="margin-bottom: 4rem;">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center" style="margin-bottom: 4rem;">
                     <h1 class="highlight fs-64 fw-light fancy-heading">Blogs</h1>
                     <p class="mono-text m-0">My thoughts on technology and business, welcome to subscribe</p>
                 </div>
                 <hr>
-                <div class=" row py-5">
-                    <div class="col-12 col-lg-3">
-                        <img src="/image/blogs-img.png" alt="BlogImage">
+                <div class=" row py-5 gap-5">
+                    <div class="col-12 col-sm-2 col-lg-3">
+                        <img src="/image/blogs-img.png" alt="BlogImage" class="blog-img">
                     </div>
-                    <div class="col-12 col-lg-9 blog-info pt-5 pt-lg-0 ps-4">
+                    <div class="col-12 col-sm-8 col-lg-9 blog-info pt-5 pt-sm-0 ps-4">
                         <h3 class="highlight fs-32 fw-light">What does it take to become a web developer?</h3>
                         <p class="fw-light pt-3">Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet…</p>
                         <span class="highlight border-bottom border-white pb-1"><a href="#" class="text-decoration-none highlight">Read More</a>>></span>
@@ -289,7 +289,7 @@
                 </div>
                 <hr>
                 <div class="row mt-5">
-                    <div class="col-lg-12 d-flex justify-content-center align-items-center gap-4">
+                    <div class="col-lg-12 d-flex justify-content-center justify-content-sm-around align-items-center gap-4">
                         <button type="button" class="blog-btn text-dark me-md-4" style="background-color: #12F7D6;">View More</button>
                         <button type="button" class="blog-btn bg-dark">Subscribe</button>
                     </div>
@@ -309,11 +309,11 @@
                     <div class="col-12 col-lg-12 d-flex justify-content-center align-items-center flex-column">
                         <h1 class="py-3 px-5 d-inline-block about-me-title fs-32 fw-light bg-dark text-center" style="color: #12F7D6;">Send Me A Message</h1>
                         <div class="row w-100 mb-5">
-                            <div class="col-6 col-lg-6 d-flex flex-column align-items-start">
+                            <div class="col-6 d-flex flex-column align-items-start">
                                 <label for="name" class="form-label highlight fw-light">Your name *</label>
                                 <input type="text" class="customized-input fw-light" id="name" placeholder="Enter your name">
                             </div>
-                             <div class="col-6 col-lg-6 d-flex flex-column align-items-start">
+                             <div class="col-6 d-flex flex-column align-items-start">
                                 <label for="email" class="form-label highlight fw-light">Your email *</label>
                                 <input type="email" class="customized-input fw-light" id="email" placeholder="Enter your email">
                             </div>
@@ -330,10 +330,10 @@
             </div>
         </section>
         <div class="row py-3 border-top border-white footer m-0">
-                <div class="col-lg-12 d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center gap-3 gap-md-5">
+                <div class="col-lg-12 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-center gap-3 gap-sm-2 gap-md-5">
                     <p>© 2025 Javokhir. All rights reserved.</p>
                     <p>Privacy Policy <span>Terms & Conditions</span></p>
-                    <div class="d-flex align-items-center gap-5 icon">
+                    <div class="d-flex align-items-center gap-5 gap-sm-4 icon">
                         <a href="https://www.instagram.com/javokha" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://t.me/javokha" target="_blank"><i class="fa-brands fa-telegram"></i></a>
                         <a href="https://github.com/AbdurashitovJavokhir" target="_blank"><i class="fa-brands fa-github"></i></a>
