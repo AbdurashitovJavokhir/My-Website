@@ -1,8 +1,23 @@
 body {
-    background-color: #292F36;
+    background-color: #292F36 !important;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 1.25rem;
 }
+
+.navigation-bar {
+    position: fixed;
+    width: 100%;
+    background-color: #292F36;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 1px solid #53575C;
+  }
+
+  .navigation-bar.container {
+    max-width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
