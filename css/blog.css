@@ -20,4 +20,15 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
-  
+
+
+@media (max-width: 576px){
+  .suggestion-title {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .suggestion-title {
+    font-size: 2.5rem !important;
+  }
+}
