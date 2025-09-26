@@ -21,3 +21,16 @@ let observer = new IntersectionObserver((entries) => {
 sections.forEach(section => {
   observer.observe(section);
 });
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+    // Path to your CV file
+    const cvFile = "CV.pdf";
+
+    // Create a temporary <a> element
+    const link = document.createElement("a");
+    link.href = cvFile;
+    link.download = "Javokhir-CV.pdf"; // File name for the download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
